@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="4f6e1148-63f8-49e3-8d4a-1ad5c8b14cff" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://int.certifac.mx:9006/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Cer.xsd" MetadataType="Schema" ID="e84288be-b4d1-46f9-95e7-9be266aa82bb" SourceId="1" SourceUrl="https://int.certifac.mx:9006/Cer.WsFactService.WsFact.svc?xsd=xsd3" />
+    <MetadataFile FileName="WsFact.wsdl" MetadataType="Wsdl" ID="01fb09c4-0d4d-4c52-bd6e-2c633565e0c4" SourceId="1" SourceUrl="https://int.certifac.mx:9006/Cer.WsFactService.WsFact.svc?wsdl" />
+    <MetadataFile FileName="Cer.disco" MetadataType="Disco" ID="fe020e91-d01f-4833-8cbf-b418696436bd" SourceId="1" SourceUrl="https://int.certifac.mx:9006/Cer.WsFactService.WsFact.svc?disco" />
+    <MetadataFile FileName="Cer1.xsd" MetadataType="Schema" ID="5cb880a0-9a2d-41cb-9371-f0f01fcb38c3" SourceId="1" SourceUrl="https://int.certifac.mx:9006/Cer.WsFactService.WsFact.svc?xsd=xsd0" />
+    <MetadataFile FileName="Cer2.xsd" MetadataType="Schema" ID="47067fed-4f65-4af3-bf44-09a54e78773d" SourceId="1" SourceUrl="https://int.certifac.mx:9006/Cer.WsFactService.WsFact.svc?xsd=xsd2" />
+    <MetadataFile FileName="Cer3.xsd" MetadataType="Schema" ID="2fceb1b4-4c38-405c-817d-a84c20621df4" SourceId="1" SourceUrl="https://int.certifac.mx:9006/Cer.WsFactService.WsFact.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

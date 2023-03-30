@@ -1,0 +1,29 @@
+﻿@model IEnumerable<ExamenRodrigo.Models.ExamenM>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Agregar", "Agregar")
+</p>
+<table class="table">
+    <tr>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Editar", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Eliminar", "Eliminar", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>
